@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
     {{-- CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{asset('dist/style.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
@@ -19,6 +20,18 @@
     <title>Tugas Praktikum 2</title>
   </head>
   <body>
+  <div>
+  <div class="menu">
+		<div id="heading">
+            <a href="#">PTW</a>
+        </div>
+		<ul id="navigasi">
+			<li><a href="home">Home</a></li>
+ 			<li><a href="aboutme">Tentang Saya</a></li>
+ 			<li><a href="artikel">Artikel</a>
+ 			</li>
+		</ul>
+	</div>
     {{-- Select --}}
 
     {{-- Select Join --}}
@@ -58,6 +71,9 @@
             </div>
         </div>
     </div>
+    <div class="footer">
+		<center>Copyright &copy; 2021 - <a href="facebook.com/lavonte12">AchmadS</a></center>
+	</div>
 
   </body>
 </html>
